@@ -1,0 +1,18 @@
+ackage bridgelabzHotelReservation;
+
+public class HotelReservation {
+	public int dailyRate;
+	public String hotelName;
+	public HotelReservation(String hotelName,int dailyRate) {
+		this.hotelName=hotelName;
+		this.dailyRate=dailyRate;
+		System.out.println("Daily Rate="+dailyRate+"\nHotelName="+hotelName);
+	}
+	public static void main(String[] args) {
+	
+		System.out.println("Welcome in Hotel Reservation");
+		HotelReservation obj=new HotelReservation("Lakewood",110);
+		HotelReservation obj1=new HotelReservation("Bridgewood",120);
+		HotelReservation obj2=new HotelReservation("Ridgewood",220);
+	}
+}	
